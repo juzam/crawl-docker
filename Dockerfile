@@ -1,4 +1,4 @@
-FROM dockerfile/python
+FROM ubuntu:xenial
 MAINTAINER dididi <dfdgsdfg@gmail.com>
 
 ENV HOME /root
