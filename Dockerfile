@@ -26,7 +26,7 @@ RUN apt-get update && \
 RUN pip install tornado==3.2.2
 
 WORKDIR /root
-RUN git clone git://gitorious.org/crawl/crawl.git
+RUN git clone https://github.com/crawl/crawl.git
 
 WORKDIR /root/crawl
 RUN git submodule update --init
