@@ -1,5 +1,5 @@
 FROM ubuntu:xenial
-MAINTAINER dididi <dfdgsdfg@gmail.com>
+LABEL authors="dididi <dfdgsdfg@gmail.com>, Giovanni Angoli <juzam76@gmail.com>"
 
 ENV HOME /root
 ENV LC_ALL C.UTF-8
