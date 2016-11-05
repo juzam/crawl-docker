@@ -18,6 +18,7 @@ RUN apt-get update && \
                        libsdl2-dev \
                        libfreetype6-dev \
                        libpng-dev \
+                       python-pip \
                        ttf-dejavu-core && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
